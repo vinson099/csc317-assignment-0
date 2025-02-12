@@ -1,0 +1,44 @@
+* {
+    font-family: "Inter", serif;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #231161;
+    color: white;
+    border-bottom: #ffdc70 15px solid;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.algorithm {
+    width: 40%;
+    padding: 1% 2.5% 1% 2.5%;
+    margin: 1%;
+    border: grey 2px solid;
+    border-radius: 15px;
+    color: #464666;
+}
+
+code {
+    font-family: "Source Code Pro", serif;
+    width: 100px;
+    color: #565656;
+}
+
+footer {
+    background-color: #52247F;
+    color: #FFCF01;
+    font-weight: bold;
+}
