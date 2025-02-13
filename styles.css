@@ -16,6 +16,11 @@ body {
     border-bottom: #ffdc70 15px solid;
 }
 
+.summary{
+    margin: 0 50px 25px 50px;
+    max-width: 70%;
+}
+
 main {
     display: flex;
     flex-wrap: wrap;
@@ -35,6 +40,7 @@ code {
     font-family: "Source Code Pro", serif;
     width: 100px;
     color: #565656;
+    text-wrap: wrap;
 }
 
 footer {
